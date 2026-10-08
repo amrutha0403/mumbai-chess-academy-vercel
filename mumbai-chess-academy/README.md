@@ -1,6 +1,6 @@
 # Mumbai Chess Academy — Interactive Website Concept
 
-A responsive React + Vite website concept with a live 3D chessboard, hover-responsive pieces/squares, course cards, FAQ accordion, and a trial-class enquiry form that prepares a WhatsApp message.
+A responsive React + Vite website concept with a live 3D chessboard, hover-responsive pieces/squares, course cards, actual academy coach profiles, a gallery using existing academy-site photos, FAQ accordion, and a trial-class enquiry form that prepares a WhatsApp message.
 
 ## Run locally
 
@@ -26,6 +26,13 @@ npm run preview
 2. In Vercel, choose **Add New → Project** and import the repository.
 3. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
 4. Deploy. No environment variables are required.
+
+## Academy content added
+
+- Coach profiles for Abhishek Naidu, Sarvesh Sonawane, and Aniket Thombare based on the existing academy website.
+- Gallery using the academy's currently published images of chess activities and trophy presentations.
+- Contact numbers and Mahim address taken from the existing academy website.
+- Images are currently loaded from `mumbaichessacademy.in`. If the original host blocks external image embedding, download those image files from the original site and place them in `public/images`, then update `academyImages` in `src/main.jsx` to use local `/images/...` paths.
 
 ## Interactions
 
